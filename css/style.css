@@ -142,9 +142,9 @@ body {
     transform: translateX(75px) rotate(450deg);
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .container {
-    width: 600px;
+    width: 90vw;
   }
   .container .box-wrapper {
     position: relative;
@@ -188,6 +188,31 @@ body {
     height: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+  }
+
+  @keyframes animation-secund {
+    0% {
+      transform: translateX(58px) rotate(-90deg);
+    }
+    100% {
+      transform: translateX(58px) rotate(270deg);
+    }
+  }
+  @keyframes animation-minut {
+    0% {
+      transform: translateX(48px) rotate(-90deg);
+    }
+    100% {
+      transform: translateX(48px) rotate(360deg);
+    }
+  }
+  @keyframes animation-hour {
+    0% {
+      transform: translateX(38px) rotate(90deg);
+    }
+    100% {
+      transform: translateX(38px) rotate(450deg);
+    }
   }
 }
 
