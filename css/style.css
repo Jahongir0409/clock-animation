@@ -143,10 +143,10 @@ body {
   }
 }
 @media only screen and (max-width: 600px) {
-  .contaner {
-    width: 90vw;
+  .container {
+    width: 600px;
   }
-  .contaner .box-wrapper {
+  .container .box-wrapper {
     position: relative;
     width: 300px;
     height: 300px;
@@ -160,30 +160,30 @@ body {
     border-radius: 50%;
     box-shadow: 0px 0px 5px 5px white;
   }
-  .contaner .box-wrapper::before {
+  .container .box-wrapper::before {
     width: 15px;
     height: 15px;
     border-radius: 50%;
     box-shadow: 0px 0px 2px 3px #EDA7D8;
   }
-  .contaner .box-wrapper::after {
+  .container .box-wrapper::after {
     width: 5px;
     height: 5px;
     border-radius: 50%;
   }
-  .contaner .box-wrapper .secund-item {
+  .container .box-wrapper .secund-item {
     width: 115px;
     height: 5px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
-  .contaner .box-wrapper .minut-item {
+  .container .box-wrapper .minut-item {
     width: 95px;
     height: 5px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
   }
-  .contaner .box-wrapper .hour-item {
+  .container .box-wrapper .hour-item {
     width: 75px;
     height: 5px;
     border-top-right-radius: 5px;
